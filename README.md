@@ -3,11 +3,11 @@ FantasyCricketAPI is a Django Rest Framework-based backend for creating and mana
 
 ## Requirements
 **Functional**:
--Users can create fantasy cricket teams.
--Retrieve player stats and details (e.g., recent performances).
--Suggest players for a team based on certain criteria (e.g., form, budget).
--Allow team updates (adding/removing players).
--Score computation for teams after matches.
+*Users can create fantasy cricket teams.
+*Retrieve player stats and details (e.g., recent performances).
+*Suggest players for a team based on certain criteria (e.g., form, budget).
+*Allow team updates (adding/removing players).
+*Score computation for teams after matches.
 
 **Non-Functional**:
 -Fast API responses.
