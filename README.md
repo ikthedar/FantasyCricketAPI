@@ -21,3 +21,30 @@ FantasyCricketAPI is a Django Rest Framework-based backend for creating and mana
 * Team: Name, user, budget, list of players, total score.
 * User: Username, email, password (authentication purposes).
 * Match: Teams playing, date, stats summary.
+
+## API Endpoints
+*User Authentication*:
+
+* POST /register: Register a user.
+* POST /login: Login a user and return a token.
+
+*Player Management*:
+
+* GET /players: List all players.
+* GET /players/<id>: Get details of a specific player.
+
+*Team Management*:
+
+* POST /teams: Create a new fantasy team.
+* GET /teams/<id>: View details of a team.
+* PUT /teams/<id>: Update team (add/remove players).
+* DELETE /teams/<id>: Delete a team.
+
+*Match Stats*:
+
+* GET /matches: Get details of recent matches.
+* GET /matches/<id>: Get stats for a specific match.
+
+*Score Computation*:
+
+* GET /teams/<id>/score: Compute and return the total score of a fantasy team.
